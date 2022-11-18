@@ -1,0 +1,19 @@
+<div ngClass="new-character">
+  <input type="text" [(ngModel)]="newCharacter.name" />
+
+  <input type="text" [(ngModel)]="newCharacter.img" />
+
+  <select [(ngModel)]="newCharacter.race">
+    <option>human</option>
+
+    <option>saiyan</option>
+
+    <option>android</option>
+
+    <option>namekian</option>
+
+    <option>unknown</option>
+  </select>
+
+  <button (click)="enviar()">añadir</button>
+</div>

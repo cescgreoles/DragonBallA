@@ -1,0 +1,16 @@
+.general-characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.characters {
+  padding: 20px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+}
